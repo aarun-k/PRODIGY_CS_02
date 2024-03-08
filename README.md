@@ -1,9 +1,11 @@
 # Pixel-Manipulation-for-Image-Encryption
 
 **Image Encryption Tool**
+
 A Simple Image Encryption Tool using Pixel Manipulation with Python
 
 **Overview**
+
 This project provides a simple image encryption tool that uses pixel manipulation to encrypt and decrypt images. The tool uses a basic mathematical operation (addition and subtraction) on each pixel to encrypt and decrypt the image.
 
 **Requirements**
@@ -11,6 +13,7 @@ This project provides a simple image encryption tool that uses pixel manipulatio
 + Pillow (PIL fork)
 
 **Installation**
+
 Install the required packages using pip:
 `pip install pillow`
 
