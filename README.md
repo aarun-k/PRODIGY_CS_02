@@ -6,7 +6,7 @@ A Simple Image Encryption Tool using Pixel Manipulation with Python
 
 **Overview**
 
-This project provides a simple image encryption tool that uses pixel manipulation to encrypt and decrypt images. The tool uses a basic mathematical operation (addition and subtraction) on each pixel to encrypt and decrypt the image.
+This Python script provides a simple yet effective image encryption tool that allows users to encrypt and decrypt images using basic mathematical operations such as addition, subtraction, division, or swapping of pixels with a given key.
 
 **Requirements**
 + Python 3.x
@@ -17,9 +17,8 @@ This project provides a simple image encryption tool that uses pixel manipulatio
 Install the required packages using pip:
 `pip install pillow`
 
-**Usage**
-+ Run the script using Python:
-`python image_encryption.py`
-+ Follow the prompts to choose whether to encrypt or decrypt an image.
-+ Enter the file path of the image to encrypt or the encrypted image to decrypt.
-+ Enter the encryption or decryption key as an integer value.
+**Encryption Methods**
++ Addition (add): Adds the encryption key to each pixel value.
++ Subtraction (sub): Subtracts the encryption key from each pixel value.
++ Division (div): Divides each pixel value by (key + 1) and takes the remainder.
++ Swap (swap): Reverses the image vertically (simple pixel swapping).
